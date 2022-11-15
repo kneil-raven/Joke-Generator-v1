@@ -1,0 +1,53 @@
+:root {
+  --clr-white-1: hsl(0, 0%, 100%);
+  --clr-gray-1: hsl(212, 45%, 89%);
+  --clr-blue-1: hsl(220, 15%, 55%);
+  --clr-blue-2: hsl(218, 44%, 22%);
+}
+
+body {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background: var(--clr-gray-1);
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  margin: 12vh auto;
+  min-height: 20vh;
+}
+
+img {
+  max-width: 100%;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.container {
+  max-width: 270px;
+  padding: 2em;
+  background: var(--clr-white-1);
+  border-radius: 15px;
+  box-shadow: 3px 8px 7px rgba(0, 0, 0, 0.06);
+}
+
+.title {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 1.7rem;
+  color: var(--clr-blue-2);
+}
+
+.info {
+  font-size: 1.2rem;
+  color: var(--clr-blue-1);
+  margin: auto 10px 17px;
+  text-align: center;
+}
+
+/* The designs were created to the following widths:
+  
+  - Mobile: 375px
+  - Desktop: 1440px
+  
+  font size (p): 15px;
+  */
